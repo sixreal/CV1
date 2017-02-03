@@ -1,0 +1,91 @@
+.center
+{ text-align:center;
+
+}
+
+.PhotoCV
+{
+ float: right;
+justify-content: flex-start;
+border-radius: 15px;
+
+
+}
+.Renseignements
+{display: flex;
+}
+
+#conteneur
+{
+  display: flex;
+  justify-content: space-around;
+
+
+  /* la commande a permis de créer des colones*/
+      /* la commande a permis que chaque colone du conteneur soit au centre*/
+  /*align-items: center;*/
+  background-color: rgb(63, 46, 255);
+  border-radius: 6px;
+  padding: 10px;
+  color: white;
+  border-color: black;
+
+
+}
+
+#conteneur2
+{
+  display: flex;
+
+  /* la commande a permis de séprarer chaque element avec un espace*/
+justify-content: space-around;
+margin: auto;
+background-color: rgb(255, 0, 0);
+border-radius: 6px;
+padding: 10px;
+color: white;
+
+}
+
+
+.competences,.loisirs, .langues
+{
+background-color: rgb(0, 0, 0);
+border-radius: 6px;
+padding: 10px;
+color: white;
+}
+
+/*.experiences,.formations
+{ align-items: center;
+  justify-content: center;
+
+}
+*/
+
+#conteneur3
+{
+  background-color: rgb(105, 102, 94);
+  border-radius: 6px;
+
+}
+
+#conteneur3
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+/*
+.experiences
+{
+  background-color: rgb(63, 46, 255);
+  border-radius: 6px;
+  padding: 10px;
+  color: white;
+}
+*/
+
+#experiences,#formations
+{
+}
